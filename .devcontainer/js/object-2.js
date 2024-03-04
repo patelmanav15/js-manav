@@ -29,3 +29,21 @@ console.log(tiner);
 console.log(Object.values(tiner));
 
 console.log(tiner.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi" , 
+    price: "999" ,
+    courseInstractor: "manav"
+
+}
+// course.courseInstractor
+const {courseInstractor: instractor} = course
+// console.log(courseInstractor);
+console.log(instractor);
+
+// {
+//     "name": "manav",
+//     "cname": "js in hindi",
+//     "price": "free",
+// }
+
